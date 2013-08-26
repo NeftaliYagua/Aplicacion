@@ -28,6 +28,6 @@ OpenHack is a meetup with a simple purpose: Code together, on anything. OpenHack
 
 Estos son simplemente directrices para dirigir una OpenHack, y están destinados a ser [bifurcada] (https://github.com/OpenHackVE/openhackve.github.com). Se anima a meetups existentes / noches Hack (mañana también!) ** ** Para volar bajo el estandarte OpenHack Venezuela! Varias reuniones en en una ciudad según la hora o el lugar son bienvenidos también.
 
-# # # Comparte tu Experiencia
+### Comparte tu Experiencia
 
 Nos encantaría escuchar comentarios y ver cómo funciona OpenHack Venezuela en otras ciudades! Sólo [abrir una edición] (https://github.com/openhack/openhack.github.com/issues) en GitHub.
