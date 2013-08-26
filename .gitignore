@@ -7,3 +7,5 @@ _site/
 bin/*
 .rvmrc
 /nbproject/private/
+nbproject
+Thumbs.db
