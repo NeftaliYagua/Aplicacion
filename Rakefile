@@ -33,7 +33,7 @@ task :city do
     file.write <<-EOF
 ---
 layout: default
-title: OpenHack - #{name}
+title: OpenHackVE - #{name}
 ---
 
 ## #{name}

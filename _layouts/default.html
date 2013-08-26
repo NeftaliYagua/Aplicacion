@@ -24,17 +24,17 @@
 
   <header class="jumbotron">
     <div class="container">
-      <h1><a href="/">OpenHack</a></h1>
+      <h1><a href="/">OpenHack Venezuela</a></h1>
     </div>
   </header>
 
   <div class="wrapper">
     <div class="row-fluid">
       <div class="cities span3" id="menu_wrapper">
-        <h2 id="menu_header">Cities</h2>
+        <h2 id="menu_header">Ciudades</h2>
         <div id="menu">
           <ul id="cities">
-            <li><a href="/yours">Your City?</a></li>
+            <li><a href="/yours">Tu Ciudad?</a></li>
             {% for city in site.cities %}
               <li class="city" id="{{city.first.first}}" data-latitude="{{city.first.last.latitude}}" data-longitude="{{city.first.last.longitude}}">
                 <a href="/{{ city.first.first }}">{{ city.first.last.name }}</a>
@@ -51,8 +51,8 @@
 
   <div class="footer">
     <ul>
-      <li>Made in Buffalo, NY.</li>
-      <li>Follow <a href="https://twitter.com/openhack">@OpenHack</a> for announcements.</li>
+      <li>Hecho en Buffalo, NY. USA.</li>
+      <li>Seguir <a href="https://twitter.com/OpenHackVE">@OpenHackVE</a> para anuncios.</li>
       <li>Inspired by many <a href="http://bostonrb.org">BostonRB</a> hack nights.</li>
       <li><a href="http://github.com/openhack/openhack.github.com">This page is open source.</a></li>
     </ul>

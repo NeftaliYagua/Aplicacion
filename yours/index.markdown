@@ -1,9 +1,9 @@
 ---
 layout: default
-title: OpenHack - Your City?
+title: OpenHackVE - Su ciudad?
 ---
 
-## Your City?
+## Su ciudad?
 
 We'd love to start OpenHack in as many cities as possible. This site is meant to facilitate starting new OpenHack groups, but isn't meant to actually "run" or "RSVP" for groups. If you want to add your city, here's what you should do:
 
@@ -20,7 +20,7 @@ And that's it! If you have feedback on this process, just open up an [issue](htt
 
 If your group will have a presence on Twitter, you can follow these recommendations to get started quickly.
 
-For an example of what this looks like, please see [@OpenHackIC](https://twitter.com/OpenHackIC).
+For an example of what this looks like, please see [@OpenHackVE](https://twitter.com/OpenHackVE).
 
 #### Account
 
