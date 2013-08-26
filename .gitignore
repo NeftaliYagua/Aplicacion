@@ -6,3 +6,4 @@ _site/
 .bundle/*
 bin/*
 .rvmrc
+/nbproject/private/
