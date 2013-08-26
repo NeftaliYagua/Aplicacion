@@ -26,8 +26,8 @@ OpenHack is a meetup with a simple purpose: Code together, on anything. OpenHack
 * Alguien tiene que acoger la reunión. Esa persona es la encargada de ordenar la comida y el inicio de la introducción.
 * No vayas demasiado tarde. 9-10pm es bueno. Enfoque general disminuye en este punto, por razones obvias! Tal vez si hay interés cabeza a un bar para una mayor discusión.
 
-Estos son simplemente directrices para dirigir una OpenHack, y están destinados a ser [bifurcada] (https://github.com/OpenHackVE/openhackve.github.com). Se anima a meetups existentes / noches Hack (mañana también!) ** ** Para volar bajo el estandarte OpenHack Venezuela! Varias reuniones en en una ciudad según la hora o el lugar son bienvenidos también.
+Estos son simplemente directrices para dirigir una OpenHack, y están destinados a ser [fork](https://github.com/OpenHackVE/openhackve.github.com). Se anima a meetups existentes / noches Hack (mañana también!) ** ** Para volar bajo el estandarte OpenHack Venezuela! Varias reuniones en en una ciudad según la hora o el lugar son bienvenidos también.
 
 ### Comparte tu Experiencia
 
-Nos encantaría escuchar comentarios y ver cómo funciona OpenHack Venezuela en otras ciudades! Sólo [abrir una edición] (https://github.com/openhack/openhack.github.com/issues) en GitHub.
+Nos encantaría escuchar comentarios y ver cómo funciona OpenHack Venezuela en otras ciudades! Sólo [abrir una edición](https://github.com/openhack/openhack.github.com/issues) en GitHub.
