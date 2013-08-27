@@ -7,14 +7,14 @@ title: OpenHack Venezuela - Código Juntos.
 
 OpenHackVe es un proyecto con un simple propósito: Codificar/aprender juntos, en cualquier cosa. OpenHackVe trabaja de manera desinteresada con y por usuarios/desarrolladores que deciden aportar al conocimiento en particular, con la informática. Siempre llevando por alto, el espíritu Hacker.
 
+<h3 class="hidden-phone">¿Donde está OpenHack?</h3>
+<div id="google_map" class="hidden-phone">
+</div>
+
 ### ¿Que es OpenHack Venezuela?
 
 <div class="video-container">
   <object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/bQgbSXBjpz0?version=3&amp;hl=en_US&amp;vq=large"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/bQgbSXBjpz0?version=3&amp;hl=en_US&amp;vq=large" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-</div>
-
-<h3 class="hidden-phone">¿Donde está OpenHack?</h3>
-<div id="google_map" class="hidden-phone">
 </div>
 
 ### Estamos en...
