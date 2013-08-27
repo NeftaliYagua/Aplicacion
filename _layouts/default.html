@@ -1,63 +1,149 @@
 <!doctype html>
 <html lang=en>
 
-<head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <title>{{ page.title }}</title>
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:700,500' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/stylesheets/reset.css" />
-  <link rel="stylesheet" href="/stylesheets/index.css" />
-  <link rel="stylesheet" href="/stylesheets/bootstrap-responsive.min.css" />
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script type="text/javascript" src="/javascripts/markerclusterer_packed.js"></script>
-  <script type="text/javascript" src="/javascripts/infobox_packed.js"></script>
-  <script type="text/javascript" src="/javascripts/google_map.js"></script>
-  <script type="text/javascript" src="/javascripts/city_dropdown.js"></script>
-</head>
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+        <title>{{ page.title }}</title>
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:700,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/stylesheets/reset.css" />
+        <link rel="stylesheet" href="/stylesheets/index.css" />
+        <link rel="stylesheet" href="/stylesheets/bootstrap-responsive.min.css" />
+        <link type="text/css" href="menu.css" rel="stylesheet" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="menu.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="/javascripts/markerclusterer_packed.js"></script>
+        <script type="text/javascript" src="/javascripts/infobox_packed.js"></script>
+        <script type="text/javascript" src="/javascripts/google_map.js"></script>
+        <script type="text/javascript" src="/javascripts/city_dropdown.js"></script>
 
-<body>
+        <style type="text/css">
+            * { margin:0;
+                padding:0;
+            }
+            html { background:#333333; }
+            body {
+                margin:40px auto;
+                width:560px;
+                height:552px;
+                overflow:hidden;
+                background:#000 url(images/back.jpg) no-repeat;
+            }
+            div#menu {
+                margin:30px 0 0 95px;
+                position:absolute;
+            }
+            div#copyright {
+                font:11px 'Trebuchet MS';
+                color:#fff;
+                text-align:center;
+                clear:left;
+                position:absolute;
+                top:546px;
+                width:560px;
+            }
+            div#copyright a { color:#2e7616; }
+            div#copyright a:hover { color:#fff; }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div id="menu">
+                <ul class="menu">
+                    <li><a href="#" class="parent"><span>Home</span></a>
+                        <div><ul>
+                                <li><a href="#" class="parent"><span>Sub Item 1</span></a>
+                                    <div><ul>
+                                            <li><a href="#" class="parent"><span>Sub Item 1.1</span></a>
+                                                <div><ul>
+                                                        <li><a href="#"><span>Sub Item 1.1.1</span></a></li>
+                                                        <li><a href="#"><span>Sub Item 1.1.2</span></a></li>
+                                                    </ul></div>
+                                            </li>
+                                            <li><a href="#"><span>Sub Item 1.2</span></a></li>
+                                            <li><a href="#"><span>Sub Item 1.3</span></a></li>
+                                            <li><a href="#"><span>Sub Item 1.4</span></a></li>
+                                            <li><a href="#"><span>Sub Item 1.5</span></a></li>
+                                            <li><a href="#"><span>Sub Item 1.6</span></a></li>
+                                            <li><a href="#" class="parent"><span>Sub Item 1.7</span></a>
+                                                <div><ul>
+                                                        <li><a href="#"><span>Sub Item 1.7.1</span></a></li>
+                                                        <li><a href="#"><span>Sub Item 1.7.2</span></a></li>
+                                                    </ul></div>
+                                            </li>
+                                        </ul></div>
+                                </li>
+                                <li><a href="#"><span>Sub Item 2</span></a></li>
+                                <li><a href="#"><span>Sub Item 3</span></a></li>
+                            </ul></div>
+                    </li>
+                    <li><a href="#" class="parent"><span>Product Info</span></a>
+                        <div><ul>
+                                <li><a href="#" class="parent"><span>Sub Item 1</span></a>
+                                    <div><ul>
+                                            <li><a href="#"><span>Sub Item 1.1</span></a></li>
+                                            <li><a href="#"><span>Sub Item 1.2</span></a></li>
+                                        </ul></div>
+                                </li>
+                                <li><a href="#" class="parent"><span>Sub Item 2</span></a>
+                                    <div><ul>
+                                            <li><a href="#"><span>Sub Item 2.1</span></a></li>
+                                            <li><a href="#"><span>Sub Item 2.2</span></a></li>
+                                        </ul></div>
+                                </li>
+                                <li><a href="#"><span>Sub Item 3</span></a></li>
+                                <li><a href="#"><span>Sub Item 4</span></a></li>
+                                <li><a href="#"><span>Sub Item 5</span></a></li>
+                                <li><a href="#"><span>Sub Item 6</span></a></li>
+                                <li><a href="#"><span>Sub Item 7</span></a></li>
+                            </ul></div>
+                    </li>
+                    <li><a href="#"><span>Help</span></a></li>
+                    <li class="last"><a href="#"><span>Contacts</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="jumbotron">
+            <div class="container">
+                <h1><a href="/">OpenHack Venezuela</a></h1>
+            </div>
+        </header>
 
-  <header class="jumbotron">
-    <div class="container">
-      <h1><a href="/">OpenHack Venezuela</a></h1>
-    </div>
-  </header>
-
-  <div class="wrapper">
-    <div class="row-fluid">
-      <div class="cities span3" id="menu_wrapper">
-        <h2 id="menu_header">Ciudades</h2>
-        <div id="menu">
-          <ul id="cities">
-            <li><a href="/yours">Tu Ciudad?</a></li>
-            {% for city in site.cities %}
-              <li class="city" id="{{city.first.first}}" data-latitude="{{city.first.last.latitude}}" data-longitude="{{city.first.last.longitude}}">
-                <a href="/{{ city.first.first }}">{{ city.first.last.name }}</a>
-              </li>
-            {% endfor %}
-          </ul>
+        <div class="wrapper">
+            <div class="row-fluid">
+                <div class="cities span3" id="menu_wrapper">
+                    <h2 id="menu_header">Ciudades</h2>
+                    <div id="menu">
+                        <ul id="cities">
+                            <li><a href="/yours">Tu Ciudad?</a></li>
+                            {% for city in site.cities %}
+                            <li class="city" id="{{city.first.first}}" data-latitude="{{city.first.last.latitude}}" data-longitude="{{city.first.last.longitude}}">
+                                <a href="/{{ city.first.first }}">{{ city.first.last.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="main span8 offset1">
+                    {{ content }}
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="main span8 offset1">
-        {{ content }}
-      </div>
-    </div>
-  </div>
 
-  <div class="footer">
-    <ul>
-      <li>Hecho en Buffalo, NY. USA.</li>
-      <li>Seguir <a href="https://twitter.com/OpenHackVE">@OpenHackVE</a> para anuncios.</li>
-      <li>Inspired by many <a href="http://bostonrb.org">BostonRB</a> hack nights.</li>
-      <li><a href="http://github.com/openhack/openhack.github.com">This page is open source.</a></li>
-    </ul>
-  </div>
+        <div class="footer">
+            <ul>
+                <li>Hecho en Buffalo, NY. USA.</li>
+                <li>Seguir <a href="https://twitter.com/OpenHackVE">@OpenHackVE</a> para anuncios.</li>
+                <li>Inspired by many <a href="http://bostonrb.org">BostonRB</a> hack nights.</li>
+                <li><a href="http://github.com/openhack/openhack.github.com">This page is open source.</a></li>
+                <li><a href="http://apycom.com/">Apycom Menus</a></li>
+            </ul>
+        </div>
 
-</body>
+    </body>
 
 </html>
