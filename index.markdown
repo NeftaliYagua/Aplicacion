@@ -23,7 +23,7 @@ OpenHackVe es un proyecto con un simple propósito: Codificar/aprender juntos, e
 * Se puede hackear en cualquier cosa! Cualquier lenguaje, marco de trabajo, público / código abierto, personal, etc
 * Usted no tiene que tener una idea de hackear! Con querer aprender, es suficiente.
 * Comience con una rápida ronda de introducciones **(todas las noches!)**, Para decir lo que eres, lo que usted está trabajando, y si desea ayudar con sus idea.
-* "<joke> Deben traer OBLIGATORIAMENTE toneladas de café. </joke>
+* Deben traer OBLIGATORIAMENTE toneladas de café.
 * Asistimos a reuniones que serán orquestadas previamente.
 * Otras...
 
@@ -31,5 +31,7 @@ Estos son simplemente directrices para dirigir una OpenHack, y están destinados
 
 ### Comparte tu Experiencia
 
-Nos encantaría escuchar comentarios y ver cómo funciona OpenHack Venezuela en otras ciudades! Sólo [abrir una edición](https://github.com/openhack/openhack.github.com/issues) en GitHub. ¡¿Te animas?!
+Nos encantaría escuchar comentarios y ver cómo funciona OpenHack Venezuela en otras ciudades! Sólo [abrir una edición](https://github.com/openhack/openhack.github.com/issues) en GitHub. **(¡¿Te animas?!)**
+
+
 
