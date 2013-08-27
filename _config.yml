@@ -3,8 +3,11 @@ server: true
 markdown: maruku
 auto: true
 cities:
-
 - caracas:
     name: Caracas, Distrito Capital
     latitude: 10.517578
     longitude: -66.916666
+- valencia:
+    name: Valencia, Carabobo
+    latitude: 38.410558
+    longitude: -95.712891
