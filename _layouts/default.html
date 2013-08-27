@@ -56,14 +56,15 @@
                                 <li><a href="#"><span>Sub Item 3</span></a></li>
                             </ul></div>
                     </li>
+                    
+                            
+                    <li><a href="/yours"><span>Tu Ciudad?</span></a></li>
                     <li><a href="#" class="parent"><span>Ciudades</span></a>
                         <div>
                             <ul>
-                                <li><a href="#"><span>Sub Item 1.2</span></a></li>
-                                <li><a href="#"><span>Sub Item 1.3</span></a></li>
-                                <li><a href="#"><span>Sub Item 1.4</span></a></li>
-                                <li><a href="#"><span>Sub Item 1.5</span></a></li>
-                                <li><a href="#"><span>Sub Item 1.6</span></a></li>
+                                {% for city in site.cities %}
+                                <li><a href="/{{ city.first.first }}">{{ city.first.last.name }}</a></li>
+                                {% endfor %}
                             </ul>
                         </div>
                     </li>
