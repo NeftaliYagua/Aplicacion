@@ -49,13 +49,13 @@
                         </div>
                     </li>
                     <li><a href="#" class="parent"><span>Desplegable</span></a>
-                        <div><ul>
+                        <!--div><ul>
                                 <li><a href="#"><span>Sub Item 3</span></a></li>
                                 <li><a href="#"><span>Sub Item 4</span></a></li>
                                 <li><a href="#"><span>Sub Item 5</span></a></li>
                                 <li><a href="#"><span>Sub Item 6</span></a></li>
                                 <li><a href="#"><span>Sub Item 7</span></a></li>
-                            </ul></div>
+                            </ul></div-->
                     </li>
                     <li><a href="/agenda.html"><span>Agenda</span></a></li>
                     <li><a href="/chat.html"><span>Chat IRC</span></a></li>
@@ -71,7 +71,7 @@
                     <h2 id="menu_header">Ciudades</h2>
                     <div id="menu_lateral">
                         <ul id="cities">
-                            <li><a href="/yours">Tu Ciudad?</a></li>
+                            <!--li><a href="/yours">Tu Ciudad?</a></li-->
                             {% for city in site.cities %}
                             <li class="city" id="{{city.first.first}}" data-latitude="{{city.first.last.latitude}}" data-longitude="{{city.first.last.longitude}}">
                                 <a href="/{{ city.first.first }}">{{ city.first.last.name }}</a>
