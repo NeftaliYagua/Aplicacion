@@ -11,3 +11,15 @@ cities:
     name: Valencia, Carabobo
     latitude: 10.180457
     longitude: -67.999878
+- san_felipe:
+    name: San Felipe, Yaracuy
+    latitude: 10.340557
+    longitude: -68.736949
+- cocorote:
+    name: Cocorote, Yaracuy
+    latitude: 10.322498
+    longitude: -68.783051
+- porlamar:
+    name: Porlamar, Nueva Esparta
+    latitude: 10.960468
+    longitude: -63.850586
