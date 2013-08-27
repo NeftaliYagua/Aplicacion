@@ -9,7 +9,7 @@ title: OpenHackVE - Contáctenos
 
 ### Direcciónes electrónicas
 
-[Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/vensec)
+[Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/openhackve)
 
 
 ### Algunos de nuestros usuarios

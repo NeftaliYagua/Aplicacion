@@ -14,7 +14,7 @@ hacker en nuestro país.
 
 ### Nuestros contactos.
 
-[Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/vensec)
+[Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/openhackve)
 
 ### Próximos meetups
 

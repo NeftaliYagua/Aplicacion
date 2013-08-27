@@ -19,9 +19,9 @@ OpenHackVe es un proyecto con un simple propósito: Codificar/aprender juntos, e
 
 ### Estamos en...
 
-* [Twitter](https://twitter.com/OpenHackVe)
-* [Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/vensec)
-* [IRC/Chat](http://webchat.freenode.net?channels=%23OpenHackVe&uio=d4)
+* [Twitter](https://twitter.com/OpenHackVE)
+* [Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/openhackve)
+* [IRC/Chat](http://webchat.freenode.net?channels=%23OpenHackVE&uio=d4)
 
 ### ¿Cómo funciona OpenHackVe?
 
