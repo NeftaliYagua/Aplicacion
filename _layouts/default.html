@@ -63,7 +63,7 @@
                         <div>
                             <ul>
                                 {% for city in site.cities %}
-                                <li><a href="/{{ city.first.first }}">{{ city.first.last.name }}</a></li>
+                                <li><a href="/{{ city.first.first }}"><span>{{ city.first.last.name }}</span></a></li>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -89,8 +89,9 @@
                                 <li><a href="#"><span>Sub Item 7</span></a></li>
                             </ul></div>
                     </li>
-                    <li><a href="#"><span>Help</span></a></li>
-                    <li class="last"><a href="#"><span>Contacts</span></a></li>
+                    <li><a href="#"><span>Chat IRC</span></a></li>
+                    <li><a href="#"><span>Foro</span></a></li>
+                    <li class="last"><a href="#"><span>Contáctenos</span></a></li>
                 </ul>
             </div>
         </header>
