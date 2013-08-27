@@ -14,5 +14,5 @@ title: OpenHackVE - Contáctenos
 
 ### Algunos de nuestros usuarios
 
-* [@Neftalí Yagua](neftaliyagua.dev.coderic.co.ve)
+* [Neftalí Yagua](http://neftaliyagua.dev.coderic.co.ve)
 * Ejemplo: [@root](about.me)
