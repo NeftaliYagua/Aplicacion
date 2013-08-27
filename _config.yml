@@ -67,6 +67,10 @@ cities:
     name: Calgary, AB
     latitude: 51.0419341
     longitude: -114.0360957
+- caracas:
+    name: Caracas, Distrito Capital
+    latitude: 10.5004352
+    longitude: -66.9511459
 - chicago:
     name: Chicago, IL
     latitude: 41.8781136
