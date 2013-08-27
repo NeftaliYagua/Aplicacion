@@ -5,7 +5,7 @@ $(function(){
 	class_name = "show_menu";	
 	wrapper = $("#menu_wrapper");
 	header = wrapper.find("#menu_header");
-	menu = wrapper.find("#menu");
+	menu = wrapper.find("#menu_lateral");
 	
 	menu.addClass("js");
 	
