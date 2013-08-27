@@ -12,14 +12,13 @@ objetivo, cumplir con la masificación y la enseñanza de la cultura
 hacker en nuestro país.
 ¡Bienvenidos!
 
+* ¿Eres parte de San Felipe o de Yaracuy? ¡Únetenos! 
+
+
 ### Nuestros contactos.
 
 [Lista de correo](https://groups.google.com/forum/?hl=es-419#!forum/vensec)
 
-### Próximos meetups
-
-* Siempre estamos tras un meetup. ¿Un posible meet-up? o, ¿Reunión IRC?
-¡El código lo dirá! :)
 
 
 ### Alguno de nuestros usuarios
