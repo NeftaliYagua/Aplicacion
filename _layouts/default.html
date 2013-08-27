@@ -30,8 +30,16 @@
             <div id="menu">
                 <ul class="menu">
                     <li><a href="/"><span>Principal</span></a></li>
-                    <li><a href="/yours"><span>Tu Ciudad?</span></a></li>
-                    <li><a href="#" class="parent"><span>Ciudades</span></a>
+                    <li><a href="#" class="parent"><span>Blog</span></a>
+                        <div><ul>
+                                <li><a href="#"><span>Sub Item 3</span></a></li>
+                                <li><a href="#"><span>Sub Item 4</span></a></li>
+                                <li><a href="#"><span>Sub Item 5</span></a></li>
+                                <li><a href="#"><span>Sub Item 6</span></a></li>
+                                <li><a href="#"><span>Sub Item 7</span></a></li>
+                            </ul></div>
+                    </li>
+                    <li><a href="/yours" class="parent"><span>Tu Ciudad?</span></a>
                         <div>
                             <ul>
                                 {% for city in site.cities %}
@@ -49,9 +57,9 @@
                                 <li><a href="#"><span>Sub Item 7</span></a></li>
                             </ul></div>
                     </li>
-                    <li><a href="#"><span>Chat IRC</span></a></li>
-                    <li><a href="#"><span>Foro</span></a></li>
-                    <li class="last"><a href="#"><span>Contáctenos</span></a></li>
+                    <li><a href="/chat"><span>Chat IRC</span></a></li>
+                    <li><a href="/foro"><span>Foro</span></a></li>
+                    <li class="last"><a href="/contacto"><span>Contáctenos</span></a></li>
                 </ul>
             </div>
         </header>
