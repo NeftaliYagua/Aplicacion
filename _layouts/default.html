@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="/stylesheets/reset.css" />
         <link rel="stylesheet" href="/stylesheets/index.css" />
         <link rel="stylesheet" href="/stylesheets/bootstrap-responsive.min.css" />
-        <link type="text/css" href="menu.css" rel="stylesheet" />
+        <link type="text/css" href="menu_superior.css" rel="stylesheet" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script type="text/javascript" src="menu.js"></script>
+        <script type="text/javascript" src="menu_superior.js"></script>
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script type="text/javascript" src="/javascripts/markerclusterer_packed.js"></script>
         <script type="text/javascript" src="/javascripts/infobox_packed.js"></script>
@@ -29,6 +29,12 @@
         </style>
     </head>
     <body>
+        <header class="jumbotron">
+            <div class="container">
+                <h1><a href="/">OpenHack Venezuela</a></h1>
+            </div>
+        </header>
+
         <nav>
             <div id="menu">
                 <ul class="menu">
@@ -59,6 +65,17 @@
                                 <li><a href="#"><span>Sub Item 3</span></a></li>
                             </ul></div>
                     </li>
+                    <li><a href="#" class="parent"><span>Ciudades</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="#"><span>Sub Item 1.2</span></a></li>
+                                <li><a href="#"><span>Sub Item 1.3</span></a></li>
+                                <li><a href="#"><span>Sub Item 1.4</span></a></li>
+                                <li><a href="#"><span>Sub Item 1.5</span></a></li>
+                                <li><a href="#"><span>Sub Item 1.6</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#" class="parent"><span>Product Info</span></a>
                         <div><ul>
                                 <li><a href="#" class="parent"><span>Sub Item 1</span></a>
@@ -85,17 +102,11 @@
                 </ul>
             </div>
         </nav>
-        <header class="jumbotron">
-            <div class="container">
-                <h1><a href="/">OpenHack Venezuela</a></h1>
-            </div>
-        </header>
-
         <div class="wrapper">
             <div class="row-fluid">
                 <div class="cities span3" id="menu_wrapper">
                     <h2 id="menu_header">Ciudades</h2>
-                    <div id="menu">
+                    <div id="menu_lateral">
                         <ul id="cities">
                             <li><a href="/yours">Tu Ciudad?</a></li>
                             {% for city in site.cities %}

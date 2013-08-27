@@ -112,7 +112,7 @@ a {
 
   #menu_wrapper {
     margin-bottom: $margin-big;
-    #menu {
+    #menu_lateral {
       overflow: hidden;
     }
     h2 {
@@ -204,7 +204,7 @@ a {
 
     &.show_menu {
       @media (max-width: $tablet) {
-        #menu {
+        #menu_lateral {
           height: auto;
         }
         h2 {
