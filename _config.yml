@@ -6,6 +6,5 @@ cities:
 
 - caracas:
     name: Caracas, Distrito Capital
-    latitude: 10.5004352
-    longitude: -66.9511459
-
+    latitude: 10.517578
+    longitude: -66.916666
