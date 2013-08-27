@@ -7,7 +7,7 @@ title: OpenHackVE - Su ciudad?
 
 Nos encantaría comenzar OpenHackVe en tantas ciudades como sea posible. Este sitio está destinado a facilitar el inicio de nuevos grupos OpenHack, pero no pretende en realidad "ejecutar" o "RSVP" para grupos. Si desea añadir su ciudad, esto es lo que debe hacer:
 
-1. Puede comenzar "forkeando" y clonando el [openhack.github.com](https://github.com/OpenHackVE/openhackve.github.com) repositorio.
+1. Puede comenzar "forkeando" y clonando el [openhackve.github.com](https://github.com/OpenHackVE/openhackve.github.com) repositorio.
 2. Instala Ruby (¡Contundente!); En la cónsola: `su apt-get install ruby1.9.1`, `sudo apt-get install rubygems`, `gem install bundler; bundle`
 3. Luego, en cónsola igual: `rake city NAME=Nombre_ciudad`.<br />Si su ciudad es: "Caracas, Distrito Capital" escriba: `rake city NAME='Caracas, Distrito Capital'`. Esto creará un directorio con el nombre `caracas` con un archivo: `index.markdown` que será para tú ciudad. __Adicional__: Para obtener una ubicación en el mapa, agrega más detalles. Ejemplo: `rake city NAME='Caracas, Distrito Capital' ADDRESS='Calle 1, avenida 2'`
 4. Edita el archivo `index.markdown` con la información que desees de tú ciudad. Ejecuta: `rake` para ver el sitio en acción y ve a: `http://localhost:4000`.
