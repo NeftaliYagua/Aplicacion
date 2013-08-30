@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: OpenHackVE - Su ciudad?
+header: No encuentra su ciudad?
 ---
-
-## No encuentra su ciudad?
 
 Nos encantaría comenzar OpenHackVe en tantas ciudades como sea posible. Este sitio está destinado a facilitar el inicio de nuevos grupos OpenHack, pero no pretende en realidad "ejecutar" o "RSVP" para grupos. Si desea añadir su ciudad, esto es lo que debe hacer:
 
