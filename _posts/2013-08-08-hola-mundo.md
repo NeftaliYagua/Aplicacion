@@ -9,5 +9,5 @@ tags : [test, init, ejemplo]
 Bienvenido a mi mundo, de los códigos.
 
 <div class="video-container">
-{% youtube bQgbSXBjpz0 %}
+    {% youtube bQgbSXBjpz0 %}
 </div>
