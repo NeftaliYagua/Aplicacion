@@ -26,8 +26,8 @@ JB :
   version : 0.2.13
   BASE_PATH : false
   ASSET_PATH : false
-  archive_path: /archive.html
-  categories_path : /categories.html
+  archive_path: /archivo.html
+  categories_path : /categorias.html
   tags_path : /tags.html
   comments :
     provider : disqus
