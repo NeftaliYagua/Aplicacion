@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: OpenHack Venezuela - Código Juntos.
+header: Código Juntos.
 ---
-
-## Código Juntos.
 
 OpenHackVe es un proyecto con un simple propósito: Codificar/aprender juntos, en cualquier cosa. OpenHackVe trabaja de manera desinteresada con y por usuarios/desarrolladores que deciden aportar al conocimiento en particular, con la informática. Siempre llevando por alto, el espíritu Hacker.
 
