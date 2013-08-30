@@ -4,9 +4,7 @@ markdown: maruku
 auto: true
 permalink: /:categories/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
 pygments: true
-markdown: rdiscount
 # paginate: 20
 title : "OpenHackVE"
 tagline: Tagline
@@ -15,13 +13,10 @@ author :
   email : openhackve@groups.google.com
   github : OpenHackVE
   twitter : OpenHackVE
-
 # RSS
 name: OpenHackVE
 url: http://openhackve.github.io
-
 production_url : http://openhackve.github.io
-
 JB :
   version : 0.3.0
   BASE_PATH : false
@@ -30,9 +25,6 @@ JB :
   categories_path : /categorias.html
   tags_path : /tags.html
   comments :
-    provider : disqus
-    disqus :
-      short_name : elblogdeabr4xas
     livefyre :
       site_id : 123
     intensedebate :
