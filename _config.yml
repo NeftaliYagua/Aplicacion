@@ -2,6 +2,34 @@
 server: true
 markdown: maruku
 auto: true
+permalink: /:categories/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true
+pygments: true
+markdown: rdiscount
+# paginate: 20
+title : "OpenHackVE"
+tagline: Tagline
+author :
+  name : OpenHack Team
+  email : openhackve@groups.google.com
+  github : OpenHackVE
+  twitter : OpenHackVE
+
+# RSS
+name: OpenHackVE
+url: http://openhackve.github.io
+
+production_url : http://openhackve.github.io
+
+JB :
+  version : 0.2.13
+  BASE_PATH : false
+  ASSET_PATH : false
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+
 cities:
 - caracas:
     name: Caracas, Distrito Capital
