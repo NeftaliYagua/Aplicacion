@@ -39,9 +39,33 @@
                     <li><a href="#" class="parent"><span>Blog</span></a>
                         <div>
                             <ul>
-                                {% for post in site.posts %}
-                                <li><a href="{{ post.url }}"><span>{{ post.title }}</span></a></li>
-                                {% endfor %}
+                                <li><a href="/categorias.html" class="parent"><span>Categorías</span></a>
+                                    <div><ul>
+                                            <li><a href="#"><span>Sub Item 3</span></a></li>
+                                            <li><a href="#"><span>Sub Item 4</span></a></li>
+                                            <li><a href="#"><span>Sub Item 5</span></a></li>
+                                            <li><a href="#"><span>Sub Item 6</span></a></li>
+                                            <li><a href="#"><span>Sub Item 7</span></a></li>
+                                        </ul></div>
+                                </li>
+                                <li><a href="/tags.html" class="parent"><span>Tags</span></a>
+                                    <div><ul>
+                                            <li><a href="#"><span>Sub Item 3</span></a></li>
+                                            <li><a href="#"><span>Sub Item 4</span></a></li>
+                                            <li><a href="#"><span>Sub Item 5</span></a></li>
+                                            <li><a href="#"><span>Sub Item 6</span></a></li>
+                                            <li><a href="#"><span>Sub Item 7</span></a></li>
+                                        </ul></div>
+                                </li>
+                                <li><a href="#" class="parent"><span>Posts</span></a>
+                                    <div>
+                                        <ul>
+                                            {% for post in site.posts %}
+                                            <li><a href="{{ post.url }}"><span>{{ post.headline }}</span></a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </li>
