@@ -23,7 +23,7 @@ url: http://openhackve.github.io
 production_url : http://openhackve.github.io
 
 JB :
-  version : 0.2.13
+  version : 0.3.0
   BASE_PATH : false
   ASSET_PATH : false
   archive_path: /archivo.html
