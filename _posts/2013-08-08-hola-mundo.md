@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Hola mundo.
+title: OpenHack Venezuela - Hola mundo.
+headline: Hola mundo.
 tagline: "Ejemplo"
 tags : [test, init, ejemplo]
 ---
-
-# Hola Mundo
 
 Bienvenido a mi mundo, de los códigos.
