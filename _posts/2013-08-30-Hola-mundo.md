@@ -6,5 +6,4 @@ tags: [test, ejemplo]
 ---
 
 # Primer post del blog.
-Esta es mi versión de hola mundo
-
+Esta es mi versiÃ³n de hola mundo
