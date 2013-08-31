@@ -12,7 +12,7 @@ var GitHubWidget = GitHubWidget || {
             // github account
             var username = $(this).attr('user');
             var $panel = $(this);
-            $.ajax({ url: 'https://api.github.com/users/' + username + '/repos?sort=pushed',
+            $.ajax({ url: 'https://api.github.com/orgs/' + username + '/repos?sort=pushed&type=sources',
                 type: 'get',
                 dataType: 'jsonp',
                 cache: false,
