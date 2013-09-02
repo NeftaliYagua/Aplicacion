@@ -2,7 +2,7 @@
 server: true
 markdown: maruku
 auto: true
-permalink: /:categories/:title 
+permalink: /blog/:year-:month-:day-:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 # paginate: 20
