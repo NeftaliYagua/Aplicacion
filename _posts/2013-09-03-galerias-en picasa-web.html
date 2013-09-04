@@ -1,0 +1,40 @@
+---
+layout: post
+title: OpenHack Venezuela - Galería de fotos con picasa web.
+headline: Galería de fotos con picasa web.
+tagline: "Galerias"
+tags : [html, php, gdata]
+categories : [cdn]
+---
+
+<p>Una buena idea es hospedar galerías fotográficas en picasa web, principalmente por la facilidad de usar la aplicación de picasa para subir y ordenar las imagenes.</p>
+
+<p>Para conseguirlo aqui te regalo dos códigos que te pueden ser útiles, el primero es en Javascript, no requiere más, en cambio el segundo requiere la libreria de Zend GData 1.x.</p>
+
+<h3>Código en Javascript.</h3>
+
+{% gist 5018131 %}
+
+<h3>Código en PHP.</h3>
+
+{% gist 6431779 %}
+
+<h3>Ejemplo</h3>
+<div id="fotos"></div>
+<script type="text/javascript">
+  function procesar(root) {
+    var feed = root.feed;
+    var entries = feed.entry || [];
+    var html = ['<br />'];
+ 
+    for (var i = 0; i < entries.length; ++i) {
+      var entry = entries[i];
+      var title = entry.title.$t;
+      var imagen=entry.media$group.media$content;
+      html.push('<img src="'+imagen[0].url+'" width="'+imagen[0].width+'" height="'+imagen[0].height+'" alt="'+title+'" />', '<br />');
+    }
+    document.getElementById("fotos").innerHTML = html.join("");
+  }
+</script>
+<script src="http://picasaweb.google.com/data/feed/base/user/116232476610941258730/albumid/5181584365160464769?kind=photo&alt=json-in-script&imgmax=640&hl=es_VE&fields=entry(id,title,media:group/media:content)&callback=procesar"></script>
+
