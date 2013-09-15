@@ -49,3 +49,13 @@ cities:
     name: Porlamar, Nueva Esparta
     latitude: 10.960468
     longitude: -63.850586
+
+- El_Tigre:
+    name: El Tigre, Anzoàtegui
+    latitude: 8.38333
+    longitude: -65.15
+
+- San_Jose_de_Guanipa:
+    name: San Josè de Guanipa, Anzoàtegui
+    latitude:  8.89333
+    longitude: -64.15917
