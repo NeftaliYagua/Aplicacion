@@ -9,14 +9,14 @@ pygments: true
 title : "OpenHackVE"
 tagline: Tagline
 author :
-  name : OpenHack Team
+  name : Neftalí Yagua
   email : openhackve@groups.google.com
-  github : OpenHackVE
-  twitter : OpenHackVE
+  github : neftaliyagua
+  twitter : NeftaliYagua
 # RSS
-name: OpenHackVE
-url: http://openhackve.github.io
-production_url : http://openhackve.github.io
+name: Desarrollador Neftalí Yagua
+url: https://dev.neftaliyagua.com.ve
+production_url : https://dev.neftaliyagua.com.ve
 JB :
   version : 0.3.0
   BASE_PATH : false
