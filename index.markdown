@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenHack Venezuela - Código Juntos.
+title: Neftalí Yagua - Código Juntos.
 header: Código Juntos.
 ---
 
