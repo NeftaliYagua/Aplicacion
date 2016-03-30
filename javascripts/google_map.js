@@ -8,19 +8,19 @@ $(function(){
 	
 		// Setup the custom map markers.
 		var markerImage = new google.maps.MarkerImage(
-			"/images/map-marker.png",
+			"/OpenHackVe/images/map-marker.png",
 			new google.maps.Size(22,35),
 			null,
 			new google.maps.Point(11, 34)
 		);
 		var markerHover = new google.maps.MarkerImage(
-			"/images/map-marker.png",
+			"/OpenHackVe/images/map-marker.png",
 			new google.maps.Size(22,35),
 			new google.maps.Point(22, 0),
 			new google.maps.Point(11, 34)
 		);
 		var markerShadow = new google.maps.MarkerImage(
-			"/images/map-marker.png",
+			"/OpenHackVe/images/map-marker.png",
 			new google.maps.Size(27,35),
 			new google.maps.Point(44, 0),
 			new google.maps.Point(3, 30)
@@ -143,7 +143,7 @@ $(function(){
 				height: 48,
 				width: 48,
 				anchorIcon: [24, 24],
-				url: "/images/map-cluster.png",
+				url: "/OpenHackVe/images/map-cluster.png",
 				textColor: "#fff",
 				textSize: 17,
 				fontFamily: "Helvetica"
