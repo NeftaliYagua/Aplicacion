@@ -14,7 +14,7 @@ a {
 
 .jumbotron {
   padding: 0 5%;
-  background: #69b373 url("/images/green-gradient.png") repeat-x right bottom;
+  background: #69b373 url("../images/green-gradient.png") repeat-x right bottom;
   display: block; }
   @media (max-width: 767px) {
     .jumbotron {
@@ -32,7 +32,7 @@ a {
         font-size: 38px; } }
     .jumbotron h1 a {
       display: block;
-      background: url("/images/logo-green.png") no-repeat center left;
+      background: url("../images/logo-green.png") no-repeat center left;
       padding-left: 130px;
       color: #93f0cb;
       text-decoration: none;
@@ -61,7 +61,7 @@ a {
   padding: 10px 5% 20px 5%;
   border-top: solid 1px white;
   border-bottom: solid 1px #c3c3c3;
-  background: #f3f3f3 url("/images/white-gradient.png") repeat-x left top; }
+  background: #f3f3f3 url("../images/white-gradient.png") repeat-x left top; }
   .wrapper h2 {
     font-weight: normal;
     font-size: 40px;
@@ -101,21 +101,21 @@ a {
           padding: 5px 25px 5px 10px;
           text-decoration: none;
           border-top: 1px solid #e0e0e0;
-          background: transparent url("/images/city-arrow.png") no-repeat right center; }
+          background: transparent url("./images/city-arrow.png") no-repeat right center; }
           @media (max-width: 767px) {
             .wrapper #menu_wrapper ul li a {
               padding-top: 7px;
               padding-bottom: 7px; } }
           .wrapper #menu_wrapper ul li a:hover, .wrapper #menu_wrapper ul li a.highlight {
             background-color: #69b373;
-            background-image: url("/images/city-arrow-hover.png"), url("/images/green-gradient.png");
+            background-image: url("../images/city-arrow-hover.png"), url("/images/green-gradient.png");
             background-repeat: no-repeat, repeat-x;
             background-position: right center, left bottom;
             color: white;
             border-top-color: #69b373; }
           .wrapper #menu_wrapper ul li a:active {
             background-color: #69b373;
-            background-image: url("/images/city-arrow-hover.png"), url("/images/green-gradient.png");
+            background-image: url("../images/city-arrow-hover.png"), url("/images/green-gradient.png");
             background-repeat: no-repeat, repeat-x;
             background-position: right center, left top; }
         .wrapper #menu_wrapper ul li:first-child a {
@@ -137,7 +137,7 @@ a {
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
         box-shadow: 0 1px 0 #fff;
         background-color: #bbb;
-        background-image: url("/images/menu-dropdown.png"), url("/images/menu-gradient.png");
+        background-image: url("../images/menu-dropdown.png"), url("../images/menu-gradient.png");
         background-position: 10px center, left bottom;
         background-repeat: no-repeat, repeat-x;
         background-size: 18px, auto; } }
@@ -184,7 +184,7 @@ a {
       .wrapper .main .map_label p span {
         display: inline-block;
         padding: 4px 10px;
-        background: #333333 url("/images/map-label-gradient.png") repeat-x right top;
+        background: #333333 url("../images/map-label-gradient.png") repeat-x right top;
         color: #fff;
         font-size: 11px;
         font-weight: bold;
