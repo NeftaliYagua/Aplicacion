@@ -16,8 +16,8 @@ author :
 # RSS
 name: Neftalí Yagua
 title: Neftalí Yagua
-url: https://dev.neftaliyagua.com.ve
-production_url : https://dev.neftaliyagua.com.ve
+url: https://neftaliyagua.com
+production_url : https://neftaliyagua.com
 JB :
   version : 0.3.0
   BASE_PATH : false
